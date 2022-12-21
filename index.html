@@ -5,54 +5,198 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My first web page</title>
+    <title>My First Web</title>
+    <!--Custom CSS-->
+    <link rel="stylesheet" href="styles.css">
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;1,200&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
-    <!--CSS-->
-    <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
-    <div class="container">
-        <!--Navigation-->
-        <nav class="nav-main">
-            <!--Brand-->
-            <img src="#ruta de imagen#" alt="Logo" class="nav-brand">
-            <!--Left Nav-->
-            <ul class="nav-menu-left">
-                <li>
-                    <a href="#">Web Development </a>
-                </li>
-                <li>
-                    <a href="#">Blockchain</a>
-                </li>
-                <li>
-                    <a href="#">Artificial Intelligence</a>
-                </li>
-                <li>
-                    <a href="#">Machine Learning</a>
-                </li>
-                <li>
-                    <a href="#">Quantum Computing</a>
-                </li>
-                <li>
-                    <a href="#">Startup</a>
-                </li>
-                <li>
-                    <a href="#">More</a>
-                </li>
-            </ul>
-            <!--Right Nav-->
-            <ul class="nav-menu-right">
-                <li>
-                    <a href="#">
-                        <i class="fas fa-search"></i>
-                    </a>
-                </li>
-            </ul>
-        </nav>
 
+    <nav class="navegacion">
+        <img src="images/weird.jpg" alt="Logo pagina" class="nav-logo">
+        <ul class="nav-menu">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">Lenguajes</a>
+            </li>
+            <li>
+                <a href="#">Sobre nosotros</a>
+            </li>
+            <li>
+                <a href="#">Ayuda</a>
+            </li>
+            <li>
+                <a href="#">Contacto</a>
+            </li>
+            <li>
+                <a href="#">Buscar</a>
+            </li>
+        </ul>
+
+        <ul class="nav-der">
+            <li>
+                <a href="#">
+                    <i class="fas fa-search"></i>
+                </a>
+            </li>
+        </ul>
+    </nav>
+    <hr>
+
+    <div class="container">
+        <header class="portada-dw">
+            <h2>DESARROLLO WEB</h2>
+            <P>Se conoce como desarrollo web al proceso de crear y mantener un sitio web que sea funcional en internet, a través de diferentes lenguajes de programación, según el modelo y la parte de la página que corresponda. Cada sitio tiene una URL única
+                que lo distingue de los demás en la red informática mundial.</P>
+            <a href="#" class="btn">Leer mas <i class="fas fa-angle-double-right"></i></a>
+        </header>
+
+        <div class="secciones">
+            <div>
+                <img src="./images/js.jpg" alt="js">
+                <h3>JavaScript</h3>
+                <p>JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento
+                    de máquinas reproductoras de vídeo, etc.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/html.jpg" alt="html">
+                <h3>Html</h3>
+                <p>HTML, siglas en inglés de HyperText Markup Language, hace referencia al lenguaje de marcado para la elaboración de páginas web. Define una estructura básica y un código para la definición de contenido de una página web, como texto, imágenes,
+                    videos, juegos, entre otros.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/css.jpg" alt="css">
+                <h3>Css</h3>
+                <p>CSS, en español «Hojas de estilo en cascada», es un lenguaje de diseño gráfico para definir y crear la presentación de un documento estructurado escrito en un lenguaje de marcado.​ Es muy usado para establecer el diseño visual de los documentos
+                    web, e interfaces de usuario escritas en HTML o XHTML.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/typescript.png" alt="ts">
+                <h3>TypeScript</h3>
+                <p>TypeScript es un lenguaje de programación libre y de código abierto desarrollado y mantenido por Microsoft. Es un superconjunto de JavaScript, que esencialmente añade tipos estáticos y objetos basados en clases.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/java.jpg" alt="java">
+                <h3>Java</h3>
+                <p>Java es un lenguaje de programación orientado a objetos desarrollado por Sun Microsystems a principios de los años 90.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+        <header class="portada-dm">
+            <h2>DESARROLLO MOVIL</h2>
+            <P>El desarrollo de aplicaciones móviles es el conjunto de procesos y procedimientos involucrados en la escritura de software para dispositivos informáticos pequeños e inalámbricos, como teléfonos inteligentes y otros dispositivos portátiles.</P>
+            <a href="#" class="btn">Leer mas <i class="fas fa-angle-double-right"></i></a>
+        </header>
+
+        <div class="secciones">
+            <div>
+                <img src="./images/js.jpg" alt="js">
+                <h3>JavaScript</h3>
+                <p>JavaScript es un lenguaje de programación o de secuencias de comandos que te permite implementar funciones complejas en páginas web, muestra oportunas actualizaciones de contenido, mapas interactivos, animación de Gráficos 2D/3D, desplazamiento
+                    de máquinas reproductoras de vídeo, etc.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/objetive-c.png" alt="html">
+                <h3>Objetive-C</h3>
+                <p>Objective-C fue el lenguaje de desarrollo original para iOS. Mientras que la lengua rápida introducida recientemente es el futuro del desarrollo de iOS, muchos proyectos avanzados todavía dependen de Objective-C. Así que la transición
+                    de Objective-C a Swift se espera que sea algo lento, y puede que necesite tanto de ellos en algunos proyectos, al menos por el momento.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/swift.jpg" alt="css">
+                <h3>Swift</h3>
+                <p>Si quieres desarrollar para iOS, Swift es el lenguaje par ti. Introducido en 2014 y declarado abierto en el año 2015, Swift está rápidamente alcanzando con desarrolladores móviles. Es muy popular, especialmente entre las nuevas empresas
+                    de desarrollo de iOS. </p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/kotlin.jpg" alt="ts">
+                <h3>Kotlin</h3>
+                <p>Kotlin fue diseñado y desarrollado por JetBrains, la compañía checa, conocida por su popular IDE, IntelliJ IDEA. Equipo Android de Google ha anunciado recientemente que oficialmente se añade soporte para el lenguaje de programación de
+                    Kotlin.
+                </p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/java.jpg" alt="java">
+                <h3>Java</h3>
+                <p>Java es un lenguaje de programación orientado a objetos desarrollado por Sun Microsystems a principios de los años 90.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
+
+        <header class="portada-ia">
+            <h2>INTELIGENCIA ARTIFICIAL</h2>
+            <P>Entendemos como inteligencia artificial el resultado de un modelo de programación que nos permite crear una realidad paralela en la que interactuar en un modo 360. La inmersión del usuario es clave para disfrutar de todas las funcionalidades
+                derivadas de la programación de las diferentes aplicaciones de inteligencia artificial.</P>
+            <a href="#" class="btn">Leer mas <i class="fas fa-angle-double-right"></i></a>
+        </header>
+
+        <div class="seccion-ia">
+            <div>
+                <img src="./images/python.jpg" alt="js">
+                <h3>Python</h3>
+                <p>Python es un lenguaje de alto nivel de programación interpretado cuya filosofía hace hincapié en la legibilidad de su código, se utiliza para desarrollar aplicaciones de todo tipo, ejemplos: Instagram, Netflix, Spotify, Panda3D, entre
+                    otros.
+                </p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/r.jpg" alt="html">
+                <h3>R</h3>
+                <p>R es un entorno y lenguaje de programación con un enfoque al análisis estadístico. R nació como una reimplementación de software libre del lenguaje S, adicionado con soporte para ámbito estático.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+            <div>
+                <img src="./images/java.jpg" alt="java">
+                <h3>Java</h3>
+                <p>Java es un lenguaje de programación orientado a objetos desarrollado por Sun Microsystems a principios de los años 90.</p>
+                <a href="#">Leer mas <i class="fas fa-angle-double-right"></i></a>
+            </div>
+        </div>
     </div>
+
+    <footer class="pie">
+        <div class="fila">
+            <div class="col">
+                <img src="images/weird.jpg" alt="Logo pagina" class="nav-logo">
+                <h2>MYSSTIC WRLD</h2>
+                <p class="info">Somos una empresa de desarrollo de software en la argentina y en el mundo.</p>
+            </div>
+            <div class="col">
+                <h3>Contacto</h3>
+                <p>Cordoba, Argentina</p>
+                <p class="email-id">ezequiel2014.edlv@gmail.com</p>
+                <p>+54 3512024634</p>
+            </div>
+            <div class="col-3">
+                <h3>Deja tu comentario</h3>
+                <form>
+                    <input type="text" placeholder="Ingresa tu nombre" required>
+                    <input type="email" placeholder="Ingresa tu email" required>
+                    <input type="text" placeholder="Ingresa tu comentario" required>
+                    <input type="submit" value="Enviar" class="btn-form">
+                </form>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Custom JS  -->
+    <link rel="JavaScript" href="main.js">
 </body>
 
 </html>
